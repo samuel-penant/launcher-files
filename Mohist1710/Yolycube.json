@@ -1,0 +1,16 @@
+{
+  "id": "Mohist1710",
+  "time": "2025-06-29T00:00:00+00:00",
+  "releaseTime": "2025-06-29T00:00:00+00:00",
+  "type": "release",
+  "inheritsFrom": "1.7.10",
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex 1.7.10 --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type}",
+  "libraries": [
+    {
+      "name": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10",
+      "url": "https://files.minecraftforge.net/maven/"
+    }
+  ],
+  "jar": "Mohist1710"
+}
